@@ -73,3 +73,16 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.stats-container {
+    font-family: 'Cabin';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    cursor: pointer; /* Add pointer cursor for the entire container */
+    transition: box-shadow 0.3s ease; /* Add a smooth transition for the box-shadow */
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
+}
